@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tail Dependence of Consumer Debt Defaults: A Non-parametric Vine Copula Approach - Anson Ho</title>
+<meta name="description" content="This paper shows that the optimal early withdrawal penalty rate is 50.4%, which is substantially higher than the 10% in the current regulation. Adopting the optimal penalty rate will obtain a welfare gain equivalent to a 2.16% increase in per period consumption. A reform with income-dependent early withdrawal penalty will improve welfare equivalent to a 2.90% increase in per period consumption." />
+<meta name="keywords" content="retirement, savings, tax-deferred savings accounts, hyperbolic discounting" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    
+    <link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1496165794" title="wsite-theme-css" />
+
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {text-transform:  none !important;}
+.wsite-menu-default a {text-transform:  none !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+.wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover {color:#5040ae !important;}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:14px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+    <script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"><!--
+  var IS_ARCHIVE = 1;
+  var DISABLE_NAV_MORE = 1;
+  function initFlyouts(){
+    initPublishedFlyoutMenus(
+      [{"id":"732826290864458522","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"18098496","title":"Research","url":"research.html","target":"","nav_menu":false,"nonclickable":false},{"id":"79331253","title":"CV","url":"cv.html","target":"","nav_menu":false,"nonclickable":false},{"id":"40577159","title":"Teaching","url":"teaching.html","target":"","nav_menu":false,"nonclickable":false}],
+      "920597446405831328",
+      '',
+      'active',
+      false,
+      {"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+      {}
+    )
+  }
+//-->
+</script>
+    
+    
+  </head>
+  <body class="wsite-theme-light no-header-page  wsite-page-project_page"><div id="container">
+  <table id="header">
+    <tr>
+      <td id="logo"><span class="wsite-logo">
+
+  <a href="">
+  
+  <span id="wsite-title">Anson Ho</span>
+  
+  </a>
+
+</span></td>
+      <td id="header-right">
+        <table>
+          <tr>
+            <td class="phone-number"></td>
+            <td class="social"><div style="text-align:left;"><div style="height:0px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class='wsite-social-item wsite-social-linkedin' href='https://www.linkedin.com/in/ansontyho' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-mail' href='mailto:contact@atyho.info' target='_blank'><span class='wsite-social-item-inner'></span></a></span>
+<div style="height:0px;overflow:hidden"></div></div></td>
+            <td class="search"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <div id="navigation">
+    <div id="nav-r">
+      <div id="nav-content">
+        <ul class="wsite-menu-default">
+            <li id="pg732826290864458522" class="wsite-menu-item-wrap">
+              <a
+                    href="index.html"
+                class="wsite-menu-item"
+                >
+                Home
+              </a>
+              
+            </li>
+            <li id="pg18098496" class="wsite-menu-item-wrap">
+              <a
+                    href="research.html"
+                class="wsite-menu-item"
+                >
+                Research
+              </a>
+              
+            </li>
+            <li id="pg79331253" class="wsite-menu-item-wrap">
+              <a
+                    href="cv.html"
+                class="wsite-menu-item"
+                >
+                CV
+              </a>
+              
+            </li>
+            <li id="pg40577159" class="wsite-menu-item-wrap">
+              <a
+                    href="teaching.html"
+                class="wsite-menu-item"
+                >
+                Teaching
+              </a>
+              
+            </li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div id="banner-bot">
+      <div id="banner-top">
+        <div id="banner">
+          <div class="wsite-header"></div>
+          <em id="tl"></em>
+          <em id="tr"></em>
+          <em id="bl"></em>
+          <em id="br"></em>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <div id="wsite-content" class="wsite-elements wsite-not-footer">
+  <div><div style="margin: 10px 0 0 -10px">
+<a href="uploads/npvcopula.pdf"><img src="http://www.weebly.com/weebly/images/file_icons/pdf.png" width="36" height="36" style="float: left; position: relative; left: 0px; top: 0px; margin: 0 15px 15px 0; border: 0;" /></a><div style="float: left; text-align: left; position: relative;"><table style="font-size: 12px; font-family: tahoma; line-height: .9;"><tr><td colspan="2"><b> “Tail Dependence of Consumer Debt Defaults: A Non-parametric Vine Copula Approach”</b></td></tr><tr style="display: none;"><td>File Size:  </td><td>444 kb</td></tr><tr style="display: none;"><td>File Type:  </td><td> pdf</td></tr></table>&emsp;<a href="uploads/npvcopula.pdf" style="font-weight: bold;">Download paper</a></div>
+</div>
+
+<hr style="clear: both; width: 100%; visibility: hidden"></hr></div>
+
+<div class="paragraph">Effective assessment on the default risk of consumer debts is critical for decisions ranging from portfolio risk management to macroeconomic policy making. This paper studies the risk of default in four major consumer debt categories -- mortgages, credit card, line of credit, and installment loans in Canada from 2009 to 2018. Stylized facts on the default of consumer debts are documented. A non-parametric simplified copula model is implemented to estimate the tail dependence of defaults in different loan categories. The economic implication of these tail dependence is illustrated with a value-at-risk (VaR) analysis on a loan portfolio in which the portfolio weights mimic the aggregate ones in the macro economy.<br /><br />
+JEL Classification: C22, C46, C51, E37, G32<br /><br />
+Keywords: Tail dependence; Default risk; Non-parametric vine copula
+</div>
+</div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footer-right">
+      The views expressed on this website are mine. No responsibility for them should be attributed to the Bank of Canada.
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<!-- Start of SC Code -->
+<script type="text/javascript">
+var sc_project=5728798; 
+var sc_invisible=1; 
+var sc_security="5ac5c1c6"; 
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+class="statcounter"><a title="statistics for vBulletin"
+href="http://statcounter.com/vbulletin/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/5728798/0/5ac5c1c6/1/"
+alt="statistics for vBulletin" ></a></div></noscript>
+<!-- End of SC Code -->
+
+  </body>
+</html>
